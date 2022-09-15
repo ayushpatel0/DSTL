@@ -3,7 +3,7 @@
 
 void main()
 {
-    int a[10],b[10],c[10],i,j,k=0,n1,n2;
+    int a[10],b[10],c[20],i,j,k=0,n1,n2;
     // input for the set A
     printf("Enter the number of element in set A\n");
     scanf("%d",%n1);
