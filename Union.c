@@ -7,15 +7,15 @@ void main()
     clrscr();
     // input for the set A
     printf("Enter the number of element in set A\n");
-    scanf("%d",%n1);
+    scanf("%d",&n1);
     printf("Enter the elements");
-    for(i=0;i<n1;i++)
+    for(i = 0; i < n1; i++)
     scanf("%d",&a[i]);
     // input for the set B
     printf("Enter the number of element in set B");
     scanf("%d",&n2);
     printf("Enter the elements");
-    for(i=0;i<n2;i++)
+    for(i = 0; i < n2; i++)
     scanf("%d",&b[i]);
     // calculation for union
     // copy the element of set A in set c
@@ -52,7 +52,7 @@ void main()
     }
     // printing the union of set A and set B
     printf("union of set A and set B is:-\n");
-    for(i=0;i<k;i++)
+    for(i = 0; i < k; i++)
     printf("%d,",c[i]);
     getch();
 }
