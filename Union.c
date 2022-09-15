@@ -4,6 +4,7 @@
 void main()
 {
     int a[10],b[10],c[20],i,j,k=0,n1,n2;
+    clrscr();
     // input for the set A
     printf("Enter the number of element in set A\n");
     scanf("%d",%n1);
@@ -31,8 +32,7 @@ void main()
         {
             c[k]=a[i];
             k++;
-        }
-        
+        }   
     }
     // copy the element of set B in set C
     for ( i = 0; i < n2; i++)
@@ -53,5 +53,6 @@ void main()
     // printing the union of set A and set B
     printf("union of set A and set B is:-\n");
     for(i=0;i<k;i++)
-    printf("%d,",c[i]);   
+    printf("%d,",c[i]);
+    getch();
 }
