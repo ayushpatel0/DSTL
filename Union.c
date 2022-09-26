@@ -53,6 +53,6 @@ void main()
     // printing the union of set A and set B
     printf("union of set A and set B is:-\n");
     for(i = 0; i < k; i++)
-    printf("%d,",c[i]);
+    printf("%d ",c[i]);
     getch();
 }
